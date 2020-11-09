@@ -12,7 +12,7 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.white-keys kbd {
+kbd {
     background-color: white;
     border-radius: 3px;
     border: 1px solid #b4b4b4;
@@ -24,23 +24,7 @@ body {
     line-height: 100%;
     padding: 200px 40px;
     white-space: nowrap;
-}
 
-.black-keys kbd {
-    display: inline-block;
-    background-color: black;
-    border-radius: 3px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
-    font-size: 1.85em;
-    font-weight: 700;
-    line-height: 100%;
-    /*white-space: nowrap;*/
-    position: relative;
-    color: white;
-    text-align: center;
-    border: 2px solid gray;
-    padding: 80px 30px;
-    top: -427px;
 }
 
 
