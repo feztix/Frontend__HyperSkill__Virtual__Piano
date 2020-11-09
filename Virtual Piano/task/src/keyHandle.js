@@ -28,6 +28,21 @@ document.addEventListener("keydown", function(event) {
     else if (event.code == "KeyJ") {
         audio("J")
     }
+    else if (event.code == "KeyW") {
+        audio("W")
+    }
+    else if (event.code == "KeyE") {
+        audio("E")
+    }
+    else if (event.code == "KeyT") {
+        audio("T")
+    }
+    else if (event.code == "KeyY") {
+        audio("Y")
+    }
+    else if (event.code == "KeyU") {
+        audio("U")
+    }
     else {
         console.log(`an unbound key was pressed`);
     }
